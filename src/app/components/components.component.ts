@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ComponentsComponent implements OnInit {
 
+  dtata : string;
+
   constructor() { }
 
   ngOnInit() {
+
+  this.dtata = 'Hello Home Page';
+  
   }
 
 }

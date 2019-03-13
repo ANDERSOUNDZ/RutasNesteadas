@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewsComponent implements OnInit {
 
+  data3: string;
+
   constructor() { }
 
   ngOnInit() {
+    this.data3='hello this is news'
   }
 
 }
